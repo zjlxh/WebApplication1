@@ -24,6 +24,12 @@ namespace WebApplication1.Controllers
             ViewBag.Xinxi = "ckz201831980214";
             return View();
         }
+        public ActionResult MyAction2()
+        {
+            ViewBag.Message = "大音希声";
+            ViewBag.Xinxi = "大象无形";
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
