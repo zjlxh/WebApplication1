@@ -27,7 +27,7 @@ namespace WebApplication1.Controllers
         public ActionResult MyAction3()
         {
             ViewBag.Message = "这是我修改的action";
-            ViewBag.Xinxi = "ckz201831980214 修改者：lxh201831980223";
+            ViewBag.Xinxi = "ckz201831980214  修改者：lxh201831980223";
             return View();
         }
         public ActionResult Contact()
